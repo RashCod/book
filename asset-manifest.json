@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/book/static/css/main.e9fca757.css",
+    "main.js": "/book/static/js/main.c0f0eaa9.js",
+    "static/js/787.93359fbf.chunk.js": "/book/static/js/787.93359fbf.chunk.js",
+    "static/media/fon.png": "/book/static/media/fon.f942d39696dfa906ec02.png",
+    "static/media/shekspir.png": "/book/static/media/shekspir.88994204c04b5189ced2.png",
+    "static/media/shiller.png": "/book/static/media/shiller.8ab55b67f77121494850.png",
+    "index.html": "/book/index.html",
+    "main.e9fca757.css.map": "/book/static/css/main.e9fca757.css.map",
+    "main.c0f0eaa9.js.map": "/book/static/js/main.c0f0eaa9.js.map",
+    "787.93359fbf.chunk.js.map": "/book/static/js/787.93359fbf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9fca757.css",
+    "static/js/main.c0f0eaa9.js"
+  ]
+}
