@@ -1,0 +1,15 @@
+.shillerBook{
+    position: fixed;
+    top: 0px;
+    left: 150px;
+    width: 6%;
+    height: 40vh;
+}
+
+.shiller{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    height: 95%;
+    cursor: pointer;
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { Shekspir } from './components/Shekspir/Shekspir';
+import { Shiller } from './components/Shiller/Shiller';
+import { Wrapper } from './components/Wrapper/Wrapper';
+
+import React from 'react';
+import {ModalShekspir } from './components/Modal';
+import { ModalShiller } from './components/ModalShiller';
 
 function App() {
+  const [modalActive,setModalActive] = React.useState(false)
+  const [ShillerActive,setShillerActive] = React.useState(false)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Shekspir modalActive={modalActive} setModalActive={setModalActive} />
+      <ModalShekspir modalActive={modalActive} setModalActive={setModalActive}/>
+      <Shiller ShillerActive={ShillerActive} setShillerActive={setShillerActive} />
+      <ModalShiller ShillerActive={ShillerActive} setShillerActive={setShillerActive}/>
+      
     </div>
   );
 }
