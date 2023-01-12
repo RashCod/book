@@ -16,7 +16,6 @@ function App() {
       <ModalShekspir modalActive={modalActive} setModalActive={setModalActive}/>
       <Shiller ShillerActive={ShillerActive} setShillerActive={setShillerActive} />
       <ModalShiller ShillerActive={ShillerActive} setShillerActive={setShillerActive}/>
-      
     </div>
   );
 }

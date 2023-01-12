@@ -5,7 +5,7 @@ import styles from './Shiller.module.css'
 
 export const Shiller = ({ShillerActive,setShillerActive}) => {
   return (
-    <div className={styles.shillerBook}>
+    <div  className={styles.shillerBook}>
         <img className={styles.shiller} src={shiller} alt="Skecspir" onClick={()=> setShillerActive(true)} />
     </div>
   )
